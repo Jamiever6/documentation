@@ -59,7 +59,7 @@ Support Matrix:
 Defconfigs/Device Tree: 
     
 Linux Mainline Device Tree : sun8i-h2-plus-orangepi-zero.dtb 
- 
+
 U-Boot defconfig: orangepi_zero_defconfig
 
 ## GPIO
@@ -125,6 +125,8 @@ For example, port `PB12` would map to `GPIO 44`:
 
 The DXF drawing for the LTS version can be found there: [http://www.orangepi.org/download/ORANGE_PI-Zero-V1_5_mechanical.dxf](http://www.orangepi.org/download/ORANGE_PI-Zero-V1_5_mechanical.dxf).
 The DXF drawing for the 1.1 version can be found there: [http://www.orangepi.org/download/ORANGE_PI-Zero-V1_1_PCB-DWG.rar](http://www.orangepi.org/download/ORANGE_PI-Zero-V1_1_PCB-DWG.rar).
+The STEP 3D file for the LTS version can be found there: https://grabcad.com/community/api/v1/models/orange-pi-zero-v1-5-1/files/download?cadid=c5741b9a3224adbeb41308f0a9879cf6.
+The STL 3D file for the 1.1 version can be found there: [orange-pi-zero-v1-1-1.snapshot.2.zip](https://d2t1xqejof9utc.cloudfront.net/cads/files/c595954874e133ae666afdb34c4d7cf9/original.zip) 
 
 ## Electronic schematics
 
