@@ -35,7 +35,7 @@ jobs:
           server: ${{secrets.FTP_SERVER}}
           username: ${{secrets.FTP_USERNAME}}
           password: ${{secrets.FTP_PASSWORD}}
-          local-dir: public
+          local-dir: public/
           
       - name: FTP-Deploy-Action-www
         uses: SamKirkland/FTP-Deploy-Action@4.1.0
@@ -43,4 +43,4 @@ jobs:
           server: ${{secrets.WWW_FTP_SERVER}}
           username: ${{secrets.FTP_USERNAME}}
           password: ${{secrets.FTP_PASSWORD}}
-          local-dir: public
+          local-dir: public/
