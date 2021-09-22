@@ -31,16 +31,16 @@ jobs:
 
       - name: FTP-Deploy-Action
         uses: SamKirkland/FTP-Deploy-Action@4.1.0
-        with:
-          ftp-server: ${{secrets.FTP_SERVER}}
-          ftp-username: ${{secrets.FTP_USERNAME}}
-          ftp-password: ${{secrets.FTP_PASSWORD}}
+        with:      
+          server: ${{secrets.FTP_SERVER}}
+          username: ${{secrets.FTP_USERNAME}}
+          password: ${{secrets.FTP_PASSWORD}}
           local-dir: public
           
       - name: FTP-Deploy-Action-www
         uses: SamKirkland/FTP-Deploy-Action@4.1.0
         with:
-          ftp-server: ${{secrets.WWW_FTP_SERVER}}
-          ftp-username: ${{secrets.FTP_USERNAME}}
-          ftp-password: ${{secrets.FTP_PASSWORD}}
+          server: ${{secrets.WWW_FTP_SERVER}}
+          username: ${{secrets.FTP_USERNAME}}
+          password: ${{secrets.FTP_PASSWORD}}
           local-dir: public
